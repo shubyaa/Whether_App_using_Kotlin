@@ -85,13 +85,13 @@ class MainActivity : AppCompatActivity(){
         val nineteen = 19
         Log.i("Time", time)
 
-        if (time1 >= seven && time1 < nineteen) {
+        if (time1 in seven until nineteen) {
             sun.animate().translationY(-1100F).duration = 1000
             day.animate().alpha(1F).duration = 1000
 
             moon.isVisible = false
             night.isVisible = false
-        } else if (time1 >= nineteen && time1 <= twentythree || time1 > zero && time1 < seven) {
+        } else if (time1 in nineteen..twentythree || time1 in (zero + 1) until seven) {
             moon.animate().translationY(-1100F).duration = 1000
             night.animate().alpha(1F).duration = 1000
 
