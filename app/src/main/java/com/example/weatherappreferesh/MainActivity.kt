@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity(){
     var addressData: AddressData? = null
     val CITY: String = "Mumbai"
     val API: String = "4660237d1153a2f3a904d2bc16fa184b" // Use your own API key to fetch weather
-    val mapbox: String = "AIzaSyD7Q6KMnNxKwWY5_cktwKqEHQgXuWZl4Y4"
     var Lat = ""
     var Lng = ""
     var lattitude = 19.0760
@@ -167,7 +166,7 @@ class MainActivity : AppCompatActivity(){
                         Charsets.UTF_8
                 )
             }catch (e: Exception){
-                response = ""
+                response = "ERROR"
             }
             return response
         }
@@ -213,14 +212,6 @@ class MainActivity : AppCompatActivity(){
 
                 findViewById<ProgressBar>(R.id.loader).visibility = View.GONE
                 findViewById<RelativeLayout>(R.id.mainContainer).visibility = View.VISIBLE
-
-                if (weatherDescription.contains("rain")){
-
-                } else if (weatherDescription.contains("snow")){
-
-                } else{
-
-                }
 
             } catch (e: Exception) {
                 Log.i("Error", e.toString())
