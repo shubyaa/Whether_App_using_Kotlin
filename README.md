@@ -13,7 +13,8 @@
 Also, depending on the time, I have added a small animation in GUI. When there is daytime, it will show **sun rising**, and when ther is night, **moon** will be appeared.
 
 A simple demonstration of the App is here below:
-[Screen](https://user-images.githubusercontent.com/67822091/121862923-ecc25500-cd18-11eb-8e20-b142dc7387f4.mp4)
+![weather app](https://user-images.githubusercontent.com/67822091/121865098-3449e080-cd1b-11eb-8d0f-b124f291c27b.gif)
+
 
 For getting wether details, I have used [OpenWheatherMapApi](https://openweathermap.org/api "open"). You can learn to generate and use a new key for your project [here](https://openweathermap.org/appid).
 
