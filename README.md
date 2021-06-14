@@ -13,6 +13,7 @@
 Also, depending on the time, I have added a small animation in GUI. When there is daytime, it will show **sun rising**, and when ther is night, **moon** will be appeared.
 
 A simple demonstration of the App is here below:
+
 ![weather app](https://user-images.githubusercontent.com/67822091/121865098-3449e080-cd1b-11eb-8d0f-b124f291c27b.gif)
 
 
